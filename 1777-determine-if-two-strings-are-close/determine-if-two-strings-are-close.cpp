@@ -17,8 +17,8 @@ public:
         }
         
         
-        std::sort(counts1.begin(), counts1.end());
-        std::sort(counts2.begin(), counts2.end());
+        sort(counts1.begin(), counts1.end());
+        sort(counts2.begin(), counts2.end());
         
        
         return set1 == set2 && counts1 == counts2;
